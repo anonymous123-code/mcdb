@@ -1,0 +1,34 @@
+:root {
+    --nav-background: #ddd;
+    --nav-link: #060606;
+    --nav-link-hover: black;
+    --nav-link-hover-background: #aaa;
+    --nav-link-active: white;
+    --nav-link-active-background: #0ba166;
+
+    --background: #fff;
+    --text-color: #060606;
+    --footer-color: #222;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --nav-background: #333;
+        --nav-link: #f2f2f2;
+        --nav-link-hover: white;
+        --nav-link-hover-background: #666;
+
+        --text-color: #f2f2f2;
+        --footer-color: #ddd;
+
+        --background: #000;
+    }
+}
+
+a {
+    color: inherit;
+}
+
+:root {
+    color: var(--text-color);
+}
